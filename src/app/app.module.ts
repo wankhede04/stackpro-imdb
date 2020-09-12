@@ -14,6 +14,7 @@ import { MovieDetailComponent } from './movie-detail/movie-detail.component';
 import { MovieDetailsComponent } from './movie-details/movie-details.component';
 import { RegisterComponent } from './register/register.component';
 import { UpcomingComponent } from './upcoming/upcoming.component';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { UpcomingComponent } from './upcoming/upcoming.component';
     MovieDetailComponent,
     MovieDetailsComponent,
     RegisterComponent,
-    UpcomingComponent
+    UpcomingComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
