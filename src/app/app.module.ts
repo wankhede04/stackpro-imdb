@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { MovieDetailComponent } from './movie-detail/movie-detail.component';
 import { MovieDetailsComponent } from './movie-details/movie-details.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
     MovieDetailComponent,
-    MovieDetailsComponent
+    MovieDetailsComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
