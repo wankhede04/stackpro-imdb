@@ -1,1 +1,38 @@
-<router-outlet></router-outlet>
+<div class="page-section">
+  <div class="side-panel">
+    <span class="index">
+      <p>Dashboard</p>
+    </span>
+    <div class="button-routes">
+      <div>
+        <button class="btn btn-outline-primary" (click)="navigateTo('home')">
+          Home Page
+        </button>
+      </div>
+      <div>
+        <button class="btn btn-outline-primary" (click)="navigateTo('detail')">
+          Movie Detail
+        </button>
+      </div>
+      <div>
+        <button class="btn btn-outline-primary" (click)="navigateTo('details')">
+          Movie Details
+        </button>
+      </div>
+      <div>
+        <button class="btn btn-outline-primary" (click)="navigateTo('register')">
+          Login/Signup
+        </button>
+      </div>
+      <div>
+        <button class="btn btn-outline-primary" (click)="navigateTo('upcoming')">
+          Upcoming
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="route-wrapper">
+    <router-outlet></router-outlet>
+  </div>
+</div>

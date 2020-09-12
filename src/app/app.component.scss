@@ -1,0 +1,39 @@
+.page-section {
+  display: flex;
+}
+
+.side-panel {
+  padding: 1% 0;
+  height: 100vh;
+  width: 15%;
+  box-shadow: 4px 4px 10px 1px #707070;
+  background: #FFFFFF;
+  margin-right: 2%;
+}
+
+.index {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #007bff;
+
+  p {
+    font-weight: 600;
+    font-size: 18px;
+    color: #007bff;
+    letter-spacing: 1px;
+  }
+}
+
+.button-routes {
+  display: grid;
+  padding: 10px;
+  position: relative;
+  justify-content: center;
+
+  div {
+    margin: 10px 0;
+  }
+}
+.route-wrapper {
+  max-width: 81%;
+}
