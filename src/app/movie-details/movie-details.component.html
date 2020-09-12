@@ -1,3 +1,21 @@
-<p>
-  movie-details works!
-</p>
+<div class="container">
+  <h3>Movie Details Page</h3>
+  <div class="content">
+    <div class="details row">
+      <div class="col-md-5 movie-image">
+        Image
+      </div>
+      <div class="col-md-7 movie-detail">
+        Details
+      </div>
+    </div>
+    <div class="table">
+      <app-table
+        [showFilter]="false"
+        [dataSource]="dataSource"
+        [displayedColumns]="displayedColumns"
+      ></app-table>
+    </div>
+  </div>
+</div>
+

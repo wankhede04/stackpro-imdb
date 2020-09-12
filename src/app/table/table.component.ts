@@ -20,6 +20,9 @@ export class TableComponent implements OnInit {
   @Input()
   public dataSource: MatTableDataSource<PeriodicElement>;
 
+  @Input()
+  public showFilter: boolean = true;
+
   constructor() { }
 
   ngOnInit() {
