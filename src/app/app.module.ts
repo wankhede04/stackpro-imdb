@@ -7,6 +7,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { MovieDetailComponent } from './movie-detail/movie-detail.component';
 import { MovieDetailsComponent } from './movie-details/movie-details.component';
 import { RegisterComponent } from './register/register.component';
+import { UpcomingComponent } from './upcoming/upcoming.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { RegisterComponent } from './register/register.component';
     HomePageComponent,
     MovieDetailComponent,
     MovieDetailsComponent,
-    RegisterComponent
+    RegisterComponent,
+    UpcomingComponent
   ],
   imports: [
     BrowserModule,
