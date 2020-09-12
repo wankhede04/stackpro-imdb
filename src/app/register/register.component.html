@@ -1,3 +1,33 @@
-<p>
-  register works!
-</p>
+<div class="container">
+  <h3>Login / SignUp</h3>
+  <div class="row content">
+    <div class="col-md-5 login">
+      <h5>Login</h5>
+      <div class="login-form">
+        <form (ngSubmit)="onSubmit()">
+          <label for="username">User Name:</label>
+          <input id="username" type="text" [ngModelOptions]="{standalone: true}" [(ngModel)]="username" placeholder="Enter username...">
+          <label for="password">Password:</label>
+          <input type="password" [ngModelOptions]="{standalone: true}" [(ngModel)]="password" placeholder="Enter password...">
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-5 register">
+      <h5>SignUp</h5>
+      <div class="login-form">
+        <form (ngSubmit)="onSubmit()">
+          <label for="newUsername">User Name:</label>
+          <input id="newUsername" type="text" [ngModelOptions]="{standalone: true}" [(ngModel)]="newUsername" placeholder="Enter username...">
+          <label for="email">EMail:</label>
+          <input id="email" type="text" [ngModelOptions]="{standalone: true}" [(ngModel)]="email" placeholder="Enter email address...">
+          <label for="newPassword">Password:</label>
+          <input type="newPassword" [ngModelOptions]="{standalone: true}" [(ngModel)]="newPassword" placeholder="Enter password...">
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

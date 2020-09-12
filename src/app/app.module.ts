@@ -15,6 +15,7 @@ import { MovieDetailsComponent } from './movie-details/movie-details.component';
 import { RegisterComponent } from './register/register.component';
 import { UpcomingComponent } from './upcoming/upcoming.component';
 import { TableComponent } from './table/table.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { TableComponent } from './table/table.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTableModule,

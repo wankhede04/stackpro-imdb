@@ -1,0 +1,48 @@
+.content {
+  margin-top: 3%;
+  text-align: center;
+
+  .login .register {
+    background: #FFF;
+  }
+
+  .col-md-5 {
+    background: #FFF;
+
+    h5 {
+      padding: 10px;
+    }
+  }
+}
+
+.login-form {
+  padding: 20px;
+
+  form {
+    display: grid;
+  }
+
+  label {
+    text-align: left;
+    text-transform: uppercase;
+    color: #353535;
+    font-size: 12px;
+  }
+
+  input {
+    margin-bottom: 6%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: #EDF6FF;
+    padding: 5px;
+
+    &::placeholder {
+      font-size: 12px;
+    }
+  }
+
+  button {
+    width: 30%;
+  }
+}
